@@ -6,7 +6,7 @@ import classes from './OrderSummary.module.css';
 
 class OrderSummary extends Component {
   // this could be a functional component
-  componentWillUpdate() {
+  componentDidUpdate() {
     console.log('[ORDER SUMMARY] WillUpdate');
   }
 
